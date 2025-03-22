@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biotecnología y Nanotecnología</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .slide {
+            display: none;
+            padding: 50px;
+            background: white;
+            margin: auto;
+            width: 80%;
+            height: 70vh;
+            box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        .slide p,
+        .slide ul {
+            text-align: left;
+            width: 90%;
+            max-width: 800px;
+        }
+
+        .slide ul {
+            padding-left: 20px;
+        }
+
+        .slide li {
+            margin-bottom: 5px;
+        }
+
+        .active {
+            display: block;
+        }
+
+        .buttons {
+            margin-top: 20px;
+        }
+
+        button {
+            padding: 10px 20px;
+            margin: 5px;
+            border: none;
+            background: #333;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+
+        }
+
+        .buttons {
+            width: 100%;
+            text-align: center;
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .mosaico {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            width: 80%;
+            max-width: 1000px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .mosaico img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .mosaico img:hover {
+            transform: scale(1.08);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="slide active">
+        <h1>Biotecnología y Nanotecnología</h1><br>
+        <p>Exploraremos las aplicaciones, impacto y desafíos de estas tecnologías emergentes.</p><br>
+
+        <div class="mosaico">
+            <img src="descarga (1).jpg" alt="Imagen 1">
+            <img src="descarga.jpg" alt="Imagen 2">
+            <img src="images.jpg" alt="Imagen 3">
+            <img src="descarga (2).jpg" alt="Imagen 4">
+            <img src="images (1).jpg" alt="Imagen 5">
+            <img src="biotechnology-scientist-researching-in-laboratory-using-microscope.jpg" alt="Imagen 6">
+            <img src="images (2).jpg" alt="Imagen 7">
+            <img src="biotecnologia.jpg" alt="Imagen 8">
+        </div>
+    </div>
+
+    <div class="slide">
+        <h2>Introducción</h2><br>
+        <p>La biotecnología y la nanotecnología son tecnologías emergentes con gran potencial en diversas áreas como la
+            medicina, la agricultura y la alimentación.</p>
+        <p>Ambas disciplinas están revolucionando industrias, permitiendo avances en la salud con medicamentos
+            personalizados, mejorando la producción agrícola con cultivos más resistentes y desarrollando materiales
+            innovadores con aplicaciones en la electrónica y la ingeniería.</p>
+        <p>A medida que estas tecnologías avanzan, surgen debates éticos sobre su regulación y los posibles impactos en
+            la sociedad y el medio ambiente.</p>
+    </div>
+
+    <div class="slide">
+        <h2>Definiciones</h2><br>
+        <p><strong>Nanotecnología:</strong> Desarrollo de sistemas funcionales a nivel molecular.</p>
+        <p>Sus aplicaciones abarcan desde la creación de nanomateriales ultrarresistentes hasta el desarrollo de
+            nanorobots para la medicina.</p>
+        <p><strong>Biotecnología:</strong> Manipulación genética para la obtención de productos útiles.</p>
+        <p>Desde la producción de vacunas hasta la mejora de cultivos resistentes a plagas, la biotecnología ha
+            transformado múltiples sectores.</p>
+    </div>
+
+    <div class="slide">
+        <h2>Aplicaciones Actuales</h2><br>
+        <p><strong>Nanotecnología:</strong> Se utiliza en:</p>
+        <ul>
+            <li><strong>Medicina:</strong> Desarrollo de nanopartículas para administrar fármacos con precisión.</li>
+            <li><strong>Industria:</strong> Producción de materiales más ligeros y resistentes, como los nanotubos de
+                carbono.</li>
+            <li><strong>Cosmética:</strong> Cremas con nanocápsulas que mejoran la absorción de ingredientes activos.
+            </li>
+            <li><strong>Electrónica:</strong> Fabricación de chips más rápidos y eficientes con transistores a escala
+                nanométrica.</li>
+        </ul>
+        <p><strong>Biotecnología:</strong> Aplicaciones destacadas incluyen:</p>
+        <ul>
+            <li><strong>Salud:</strong> Creación de vacunas, terapias génicas y producción de insulina sintética.</li>
+            <li><strong>Agricultura:</strong> Organismos genéticamente modificados (OGM) para mejorar la resistencia a
+                plagas.</li>
+            <li><strong>Medioambiente:</strong> Biorremediación para eliminar contaminantes del agua y del suelo.</li>
+            <li><strong>Industria alimentaria:</strong> Uso de fermentación y bioprocesos para mejorar la producción de
+                alimentos.</li>
+        </ul>
+    </div>
+
+    <div class="slide">
+        <h2>Impacto en la Industria</h2><br>
+        <p>Uso de plataformas de Big Data para la gestión de información genética.</p>
+        <p>Impacto positivo en productos, pero también riesgos como el desarrollo de armas biológicas.</p>
+        <p>El impacto de la biotecnología y la nanotecnología en la industria es cada vez mayor, impulsando la
+            eficiencia y la innovación.</p>
+        <p><strong>Biotecnología:</strong> Ha permitido avances en la producción de medicamentos personalizados y en la
+            optimización de procesos agrícolas.</p>
+        <p><strong>Nanotecnología:</strong> La fabricación de dispositivos electrónicos más potentes, la creación de
+            recubrimientos inteligentes y la mejora de materiales han revolucionado sectores clave como la construcción,
+            la salud y la energía.</p>
+        <p>Sin embargo, también existen riesgos asociados, como el uso inadecuado de estas tecnologías en la creación de
+            armas biológicas y la incertidumbre sobre los efectos a largo plazo de los nanomateriales en el cuerpo
+            humano y el medio ambiente.</p>
+    </div>
+
+    <div class="slide">
+        <h2>Desafíos y Oportunidades</h2><br>
+        <p>A pesar de su gran potencial, estas tecnologías enfrentan varios desafíos:</p>
+        <ul>
+            <li><strong>Regulación:</strong> Falta de normativas claras para la manipulación genética y los
+                nanomateriales.</li>
+            <li><strong>Ética:</strong> Uso de organismos genéticamente modificados y la privacidad en la recopilación
+                de datos biomédicos.</li>
+            <li><strong>Impacto ambiental:</strong> Necesidad de evaluar los efectos de los nanomateriales en la
+                naturaleza.</li>
+            <li><strong>Accesibilidad:</strong> Altos costos que limitan su disponibilidad en países en desarrollo.</li>
+        </ul>
+        <p>A pesar de estos retos, las oportunidades son enormes:</p>
+        <ul>
+            <li><strong>Medicina personalizada:</strong> Creación de tratamientos adaptados al perfil genético de cada
+                paciente.</li>
+            <li><strong>Producción sostenible:</strong> Biotecnología aplicada a la generación de bioplásticos y
+                biocombustibles.</li>
+            <li><strong>Innovación en la industria:</strong> Nanomateriales inteligentes con propiedades únicas para
+                mejorar la eficiencia energética.</li>
+        </ul>
+    </div>
+
+    <div class="slide">
+        <h2>Análisis con Google Trends</h2><br>
+        <p>El interés en la nanotecnología y la biotecnología ha variado en los últimos años según las tendencias de
+            búsqueda globales.</p>
+        <p><strong>Nanotecnología:</strong> Alcanzó su pico de popularidad en 2022, impulsada por el desarrollo de
+            nuevos materiales y aplicaciones médicas. Sin embargo, su interés ha disminuido en algunos países debido a
+            la falta de avances accesibles al público.</p>
+        <p><strong>Biotecnología:</strong> Ha mantenido un crecimiento constante, especialmente en el sector de la salud
+            y la producción de alimentos. La pandemia de COVID-19 incrementó su relevancia debido a la fabricación de
+            vacunas y tratamientos innovadores.</p>
+    </div>
+
+    <div class="slide">
+        <h2>Predicciones y Actores Claves</h2><br>
+        <p>El futuro de la biotecnología y la nanotecnología apunta a innovaciones revolucionarias:</p>
+        <ul>
+            <li><strong>Edición genética avanzada:</strong> Uso de CRISPR para curar enfermedades hereditarias.</li>
+            <li><strong>Nanomedicina:</strong> Desarrollo de nanorobots que detecten y eliminen células cancerígenas en
+                el cuerpo.</li>
+            <li><strong>Purificación ambiental:</strong> Nanotecnología aplicada a la eliminación de contaminantes del
+                aire y el agua.</li>
+        </ul>
+        <p>Algunas de las empresas y organizaciones líderes en estos campos incluyen:</p>
+        <ul>
+            <li><strong>Biotecnología:</strong> Hipra, Moderna, Bayer.</li>
+            <li><strong>Nanotecnología:</strong> IBM, Samsung, Nanosys.</li>
+        </ul>
+    </div>
+
+
+    <div class="slide">
+        <h2>Biotecnologia y Nanotecnologia</h2>
+        <iframe src="Biotecnología_y_Nanotecnología.pdf" width="100%" height="600px"></iframe>
+
+    </div>
+
+
+
+
+    <div class="buttons">
+        <button onclick="prevSlide()">Anterior</button>
+        <button onclick="nextSlide()">Siguiente</button>
+    </div>
+
+    <script>
+        let currentSlide = 0;
+        const slides = document.querySelectorAll(".slide");
+
+        function showSlide(index) {
+            slides[currentSlide].classList.remove("active");
+            currentSlide = (index + slides.length) % slides.length;
+            slides[currentSlide].classList.add("active");
+        }
+
+        function nextSlide() {
+            showSlide(currentSlide + 1);
+        }
+
+        function prevSlide() {
+            showSlide(currentSlide - 1);
+        }
+    </script>
+</body>
+
+</html>
