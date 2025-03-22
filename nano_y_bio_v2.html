@@ -203,7 +203,7 @@
             </div>
         </div>
 
-        <!-- Slide 2 - Introducción -->
+        
         <div class="slide">
             <h2>Introducción</h2>
             <div class="content-grid">
@@ -436,8 +436,7 @@
             </div>
         </div>
 
-        <!-- Slides posteriores con estructura similar -->
-
+       
         <div class="navigation">
             <button onclick="prevSlide()" aria-label="Diapositiva anterior">← Anterior</button>
             <span class="progress" id="progress">1/9</span>
@@ -470,13 +469,13 @@
             showSlide(currentSlide - 1);
         }
 
-        // Control por teclado
+        
         document.addEventListener('keydown', (e) => {
             if (e.key === 'ArrowRight') nextSlide();
             if (e.key === 'ArrowLeft') prevSlide();
         });
 
-        // Inicialización
+        
         updateProgress();
     </script>
 </body>
